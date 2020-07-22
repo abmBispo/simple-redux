@@ -1,0 +1,30 @@
+.Card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    color: white;
+}
+
+.Car .Header {
+    display: flex;
+    justify-content: center;
+}
+
+.Card .Header .Title {
+    flex: 1;
+    padding: 5px;
+}
+
+.Card .Content {
+    padding: 20px;
+}
+
+.Card.Red .Header     { background-color: #c62828; }
+.Card.Red .Content    { background-color: #f44336; }
+.Card.Green .Header   { background-color: #70923e; }
+.Card.Green .Content  { background-color: #88B04B; }
+.Card.Blue .Header    { background-color: #6d7d99; }
+.Card.Blue .Content   { background-color: #92A8D1; }
+.Card.Purple .Header  { background-color: #4f4172; }
+.Card.Purple .Content { background-color: #6B5B95; }
