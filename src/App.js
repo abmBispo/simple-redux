@@ -1,26 +1,21 @@
 import React from 'react';
 import './App.css';
-import Card from './components/Card';
+import Interval from './components/Interval';
+import Sum from './components/Sum';
+import Average from './components/Average';
+import Random from './components/Random';
 
 function App() {
   return (
     <div className="App">
       <h1>Simple redux</h1>
       <div className='row'>
-        <Card title="Card 1" red>
-          <p>Card 1</p>
-        </Card>
-        <Card title="Card 2" green>
-          <p>Card 2</p>
-        </Card>
+        <Interval />
       </div>
       <div className='row'>
-        <Card title="Card 3" blue>
-          <p>Card 3</p>
-        </Card>
-        <Card title="Card 4" purple>
-          <p>Card 4</p>
-        </Card>
+        <Sum />
+        <Average />
+        <Random />
       </div>
     </div>
   );
